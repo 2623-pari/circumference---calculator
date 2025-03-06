@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pari - Hosting Guide</title>
+</head>
+<body>
+    <h1>Pari - How to Host Your Circumference Calculator</h1>
+    
+    <h2>Option 1: GitHub Pages (Best for Permanent Hosting)</h2>
+    <ol>
+        <li>Create a GitHub Account at <a href="https://github.com/" target="_blank">GitHub</a>.</li>
+        <li>Create a new repository (e.g., <code>circumference-calculator</code>).</li>
+        <li>Upload the HTML file:</li>
+        <ul>
+            <li>Click "Add file" → "Upload files".</li>
+            <li>Drag and drop your <code>paritchith_calculator.html</code> file.</li>
+            <li>Click "Commit changes".</li>
+        </ul>
+        <li>Enable GitHub Pages:</li>
+        <ul>
+            <li>Go to Settings → Pages.</li>
+            <li>Under "Branch", select <code>main</code> and save.</li>
+            <li>GitHub will give you a link like <code>https://yourusername.github.io/circumference-calculator/</code>.</li>
+        </ul>
+        <li>Shorten the link using <a href="https://tinyurl.com/" target="_blank">TinyURL</a> or <a href="https://bitly.com/" target="_blank">Bitly</a>.</li>
+    </ol>
+
+    <h2>Option 2: Netlify (Easy Drag-and-Drop)</h2>
+    <ol>
+        <li>Go to <a href="https://www.netlify.com/" target="_blank">Netlify</a> and sign up.</li>
+        <li>Drag and Drop the HTML file into the dashboard.</li>
+        <li>Netlify will generate a free live link like <code>https://paritchith-calculator.netlify.app/</code>.</li>
+        <li>Customize the link in Settings → Domain Management.</li>
+    </ol>
+
+    <h2>Option 3: Vercel (For Developers)</h2>
+    <ol>
+        <li>Go to <a href="https://vercel.com/" target="_blank">Vercel</a> and sign up.</li>
+        <li>Create a new project and upload the HTML file.</li>
+        <li>Vercel will generate a live link like <code>https://paritchith-calc.vercel.app/</code>.</li>
+        <li>Customize the domain in Vercel’s settings.</li>
+    </ol>
+
+    <h2>Final Step: Share the Link</h2>
+    <p>Once hosted, shorten the URL using TinyURL or Bitly for easy sharing.</p>
+</body>
+</html>
+
